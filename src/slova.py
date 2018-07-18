@@ -1,0 +1,6 @@
+print("Zadejte delší slovo: ")
+delsi_slovo = input().strip()
+print("Zadejte kratší slovo: ")
+kratsi_slovo = input().strip()
+rozdil = len(delsi_slovo) - len(kratsi_slovo)
+print(f"Slova se liší délkou o {rozdil} znaků")
